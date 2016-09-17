@@ -1,14 +1,14 @@
 'use strict'
 
-const app = angular.module('Tour-Connects', ['ngRoute', 'ngAnimate'])
+const app = angular.module('BrianDoane', ['ngRoute', 'ngAnimate'])
 
 app.config(function($routeProvider) {
 
 	$routeProvider.
-	when('/', {
-		templateUrl: 'partials/login.html',
-		controller: 'LoginCtrl'
+	when('/home', {
+		templateUrl: 'partials/home.html',
+		controller: 'HomeCtrl'
 	}).
-	otherwise('/');
+	otherwise('/home');
 
 });

@@ -9,13 +9,13 @@
 	<link rel="stylesheet" href="lib/node_modules/materialize-css/dist/css/materialize.min.css">
 	<link rel="stylesheet" href="styles/main.css">	
 </head>
-<body ng-app="Brian-Doane">
+<body ng-app="BrianDoane">
 
-	<div ng-controller="NavCtrl">
+	<div ng-include="'partials/nav.html'"></div>
 
-		<div ng-view></div>
+	<div class="container z-depth-3" ng-view></div>
 
-	</div>
+	<div ng-include="'partials/footer.html'"></div>
 
 		<!-- Third Party  -->
 	<script src="lib/node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
@@ -26,7 +26,8 @@
 	<!-- Application Scripts -->
 	<script src="app/app.js"></script>
 	<!-- Controllers -->
-				
+	<script src="app/controllers/NavCtrl.js"></script>
+	<script src="app/controllers/HomeCtrl.js"></script>					
 	<!-- Values -->
 
 	<!-- Factories -->

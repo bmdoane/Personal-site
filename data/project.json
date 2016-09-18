@@ -1,0 +1,34 @@
+{
+  "frontend": {
+    "capstone": {
+      "title": "Tour Connects",
+      "pic": "screenshot",
+      "github": "https://github.com",
+      "url": "firebase or heroku",
+      "description": "this app does this"
+    },
+    "projectOne": {
+      "title": "Robot Battledome",
+      "pic": "screenshot",
+      "github": "https://github.com",
+      "url": "firebase or heroku",
+      "description": "this app does this"
+    }
+  },
+  "backend": {
+    "capstone": {
+      "title": "Something fun",
+      "pic": "screenshot",
+      "github": "https://github.com",
+      "url": "firebase or heroku",
+      "description": "this app does this"
+  },
+    "projectOne": {
+      "title": "Calendar",
+      "pic": "screenshot",
+      "github": "https://github.com",
+      "url": "firebase or heroku",
+      "description": "this app does this"
+    }
+  }
+}

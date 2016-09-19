@@ -17,8 +17,11 @@
 
 	<div ng-include="'partials/footer.html'"></div>
 
-		<!-- Third Party  -->
-	<script src="lib/node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
+	<!-- Third Party  -->
+	<!-- What is the issue with the jquery install? Only CDN working -->
+<!-- 	<script src="lib/node_modules/jquery.2/node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="lib/node_modules/jquery/dist"></script> -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 	<script src="lib/node_modules/angular/angular.min.js"></script>
 	<script src="lib/node_modules/angular-route/angular-route.min.js"></script>
 	<script src="lib/node_modules/angular-animate/angular-animate.min.js"></script>
@@ -27,10 +30,12 @@
 	<script src="app/app.js"></script>
 	<!-- Controllers -->
 	<script src="app/controllers/NavCtrl.js"></script>
-	<script src="app/controllers/HomeCtrl.js"></script>					
+	<script src="app/controllers/HomeCtrl.js"></script>
+	<script src="app/controllers/FootCtrl.js"></script>					
 	<!-- Values -->
 
 	<!-- Factories -->
+	<script src="app/factories/ProjectFact.js"></script>
 		
 
 </body>

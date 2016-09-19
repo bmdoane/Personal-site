@@ -7,7 +7,7 @@
   "undef": true,
   "unused": true,
   "asi" : true,
-  "globals": { 
+  "globals": {
     "$": true,
     "app": true
   }
